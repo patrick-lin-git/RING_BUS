@@ -11,7 +11,7 @@ it was designed to resolve routing resouce issue of an SOC chip by replacing fan
    
 ## Target application
    * low-bandwidth data transfer within SOC
-   * latency insensitive event passing like software register access, status update, interrupt, IPC etc.
+   * latency insensitive event passing like software register access, status update, interrupt & acknowledge, IPC etc.
    
 ## Architecture
 * four ring members case
