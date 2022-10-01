@@ -1,7 +1,7 @@
 # RING_BUS
 
 A ring bus is an low-bandwidth message forwarding mechanism between initiator(normally CPU) and target(normally I/O devices).
-it was designed to resolve routing resouce issue of an SOC chip by replacing fan-out structure bus to daisy chain structure bus. It improve routing efficiency and also timing closure especially on FPGA implementation.
+it was designed to resolve routing resouce issue of an SOC chip by replacing hierachical fan-out structure bus to peer-to-peer daisy chain structure bus. It improve routing efficiency and also timing closure especially on FPGA implementation.
 ## Features
    * support multi-master
    * support bit-level set/clear (bit-banding)
