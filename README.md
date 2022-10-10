@@ -13,10 +13,28 @@ it was designed to resolve routing resouce issue of an SOC chip by replacing hie
    * low-bandwidth data transfer within SOC
    * latency insensitive event passing like software register access, status update, interrupt & acknowledge, IPC etc.
    
-## Architecture
+## Top Architecture
 * four ring members case
-* 
+
 ![RING Bus Top Architecture](./doc/diagram/ring_bus_top_architecture.png)
+
+## Protocol between Ring Member
+![Protocol between member](./doc/diagram/ring_bus_protocol.png)
+
+## Message Structure
+
+ * Generic Structure (Generic)
+
+![Generic Message](./doc/ring_bus_message_structure.png)
+
+ * Request Type ()
+
+![Generic Message](./doc/ring_bus_message_structure_request_0.png)
+
+ * Request Type ()
+ * Request Type ()
+ * Respose Type ()
+ * Respose Type ()
 
 
 
