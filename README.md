@@ -15,6 +15,7 @@ it was designed to resolve routing resouce issue of an SOC chip by replacing hie
    
 ## Architecture
 * four ring members case
+![RING Bus Top Architecture](./doc/diagram/ring_bus_top_architecture.png)
 
 
 
